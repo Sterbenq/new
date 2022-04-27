@@ -1,0 +1,724 @@
+body{
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x:hidden;
+}
+footer{
+    text-align: center;
+    font: 22px "Fira Sans", sans-serif;
+    background-color: #EFEFEF;
+    padding: 20px 20px;
+}
+.head_style{
+    margin-top: 30px;
+    margin-left: 109px;
+    margin-right: 109px;
+    margin-bottom: 20px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 100%;
+}
+.menu_btn{
+    width: 100%;
+}
+.first_box{
+    background-color: white;
+    padding:0 50px;
+    display: flex;
+    align-items: center;
+}
+.first_box > p {
+    width: 100%;
+    font: 44px "Fira Sans", sans-serif;
+}
+
+.phone{
+    width: 100%;
+    height: auto;
+    max-height: 700px;
+    margin-bottom: 90px;
+}
+
+
+.second_box{
+    background-color: #F6F6F6;
+    background-size:cover;
+    padding:0 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.second_box > p {
+    margin-top: 100px;
+    margin-bottom: 0;
+    font: 44px "Fira Sans", sans-serif;
+    text-align: center;
+    max-width: 577px;
+}
+.second_box > h1 {
+    font: 1.2em "Fira Sans", sans-serif;
+    font-size: 25px;
+    text-align: center;
+    max-width: 577px;
+    margin-bottom: 67px;
+}
+
+.fourth_box{
+    background-color: #F6F6F6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 80px !important;
+}
+
+.fifth_box{
+    background-color: white;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+}
+
+.title > p {
+    font: 44px "Fira Sans", sans-serif;
+    margin-bottom: 20px;
+}
+
+.title > h1 {
+    font: 24px "Fira Sans", sans-serif;
+    max-width: 570px;
+    margin: 0 auto;
+}
+
+
+
+
+.common{
+    background: #F5F5F5;
+    border-radius: 27px;
+    width: 460px;
+    height: 340px;
+    margin-top: 135px;
+}
+.common > h1 {
+    font: 40px "Fira Sans", sans-serif;
+    color: #4D4D4D;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.quant{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.main_text{
+    color: #4D4D4D;
+    font: 24px "Fira Sans", sans-serif;
+}
+
+.white_text{
+    color: white !important;
+}
+
+.lower_text{
+    color: #AEAAA8;
+    font: 14px "Fira Sans", sans-serif;
+}
+
+.variants {
+    align-items: center;
+    display: flex;
+    color: #808080;
+    font: 18px "Fira Sans", sans-serif;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.variant_img{
+    margin-left: 65px;
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.common_btn{
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    background: #359F53;
+    border-radius: 14px;
+    width: 160px;
+    height: 50px;
+    color: #FFFFFF;
+    font: 18px "Fira Sans", sans-serif;
+    margin-bottom: 30px;
+    border: none;
+}
+
+.rare{
+    background: black;
+    border-radius: 27px;
+    width: 460px;
+    height: 460px;
+    margin-top: 95px;
+}
+
+.rare > h1 {
+    font: 40px "Fira Sans", sans-serif;
+    color: White;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.variants_black {
+    align-items: center;
+    display: flex;
+    color: white;
+    font: 18px "Fira Sans", sans-serif;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.variants_black > p{
+    width: 300px;
+}
+.variants > p {
+    width: 300px;
+}
+
+.rare_btn{
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    background: #427CEB;
+    border-radius: 14px;
+    width: 160px;
+    height: 50px;
+    color: #FFFFFF;
+    font: 18px "Fira Sans", sans-serif;
+    margin-bottom: 30px;
+    border: none;
+}
+
+.legendary{
+    background: #F5F5F5;
+    border-radius: 27px;
+    width: 460px;
+    margin-top: 135px;
+
+}
+.legendary > h1 {
+    font: 40px "Fira Sans", sans-serif;
+    color: #4D4D4D;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.legendary_btn{
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    background: #DF4236;
+    border-radius: 14px;
+    width: 160px;
+    height: 50px;
+    color: #FFFFFF;
+    font: 18px "Fira Sans", sans-serif;
+    margin-bottom: 30px;
+    border: none;
+}
+
+.first_case > p{
+    font: 1.2em "Fira Sans", sans-serif;
+    font-size: 44px;
+    margin-left: 190px;
+    margin-top: 160px;
+    margin-bottom: 0;
+    width: 700px;
+}
+
+.first_case{
+    display: flex;
+    flex-wrap: wrap;
+    width: 740px;
+    position: relative;
+}
+
+.second_case{
+    display: flex;
+    flex-wrap: wrap;
+    width: 740px;
+    position: relative;
+}
+
+.step{
+    width: 270px;
+    margin-left: 144px;
+}
+
+.step > h1 {
+
+    position: absolute;
+    background: #FFFFFF;
+    padding: 20px 20px;
+    box-shadow: 0px 53.1556px 123.531px rgba(0, 0, 0, 0.19);
+    line-height: 22px;
+    border-radius: 20px;
+    width: 200px;
+    left: 29%;
+    top: 57%;
+    margin: 0;
+    font: 14px "Fira Sans", sans-serif;
+}
+.step > h1 > strong {
+    font: 25px "Fira Sans", sans-serif;
+    font-weight: bold;
+}
+
+.step1{
+    margin-left: 50px;
+    margin-top: 140px;
+    width: 270px;
+    line-height: 35px;
+}
+
+.step1 > h1 {
+    position: absolute;
+    background: #FFFFFF;
+    padding: 20px 20px;
+    box-shadow: 0px 53.1556px 123.531px rgba(0, 0, 0, 0.19);
+    line-height: 22px;
+    border-radius: 20px;
+    width: 170px;
+    left: 80%;
+    top: 65%;
+    margin: 0;
+    font: 14px "Fira Sans", sans-serif;
+}
+.step1 > h1 > strong {
+    font: 25px "Fira Sans", sans-serif;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.step3{
+    margin-left: 70px;
+    margin-top: 140px;
+    width: 270px;
+}
+
+.step3 > h1 {
+    position: absolute;
+    background: #FFFFFF;
+    padding: 20px 20px;
+    box-shadow: 0px 53.1556px 123.531px rgba(0, 0, 0, 0.19);
+    line-height: 22px;
+    border-radius: 20px;
+    width: 170px;
+    left: 35%;
+    top: 6%;
+    margin: 0;
+    font: 16px "Fira Sans", sans-serif;
+}
+
+.step3 > h1 > strong {
+    font: 25px "Fira Sans", sans-serif;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+
+
+
+
+.step4{
+    margin-left: 50px;
+    margin-top: 280px;
+    width: 300px;
+}
+
+.step4 > h1 {
+    position: absolute;
+    background: #FFFFFF;
+    padding: 20px 20px;
+    box-shadow: 0px 53.1556px 123.531px rgba(0, 0, 0, 0.19);
+    line-height: 22px;
+    border-radius: 20px;
+    width: 200px;
+    left: 68%;
+    top: 11.5%;
+    margin: 0;
+    font: 16px "Fira Sans", sans-serif;
+}
+
+.step4 > h1 > strong {
+    font: 25px "Fira Sans", sans-serif;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+
+
+
+.step5{
+    margin-left: 70px;
+    width: 270px;
+}
+
+.step5 > h1 {
+    position: absolute;
+    background: #FFFFFF;
+    padding: 20px 20px;
+    box-shadow: 0px 53.1556px 123.531px rgba(0, 0, 0, 0.19);
+    line-height: 22px;
+    border-radius: 20px;
+    width: 180px;
+    left: 20%;
+    top: 75%;
+    margin: 0;
+    font: 16px "Fira Sans", sans-serif;
+}
+
+.step5 > h1 > strong {
+    font: 25px "Fira Sans", sans-serif;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.step6{
+    margin-left: 50px;
+    margin-top: 140px;
+    margin-bottom: 130px;
+    width: 300px;
+}
+
+.step6 > h1 {
+    position: absolute;
+    background: #FFFFFF;
+    padding: 20px 20px;
+    box-shadow: 0px 53.1556px 123.531px rgba(0, 0, 0, 0.19);
+    line-height: 22px;
+    border-radius: 20px;
+    width: 200px;
+    left: 68%;
+    top: 60%;
+    margin: 0;
+    font: 16px "Fira Sans", sans-serif;
+}
+
+.step6 > h1 > strong {
+    font: 25px "Fira Sans", sans-serif;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.first_imgage{
+    width: 272px;
+    height: 591px;
+    -webkit-box-shadow: 28px 20px 100px -34px rgba(159, 159, 165, 1);
+    -moz-box-shadow: 28px 20px 100px -34px rgba(159, 159, 165, 1);
+    box-shadow: 28px 20px 100px -34px rgba(159, 159, 165, 1);
+}
+
+.corner_phone{
+    width: 600px;
+    height: 815px;
+    margin-left: 120px;
+}
+
+
+video {
+    width: 80% !important;
+    height: auto !important;
+    border-radius: 34px;
+    box-shadow: -39px 15px 87px 3px #A5A5A5;
+    margin-bottom: 150px;
+  }
+
+.six_box{
+    background-color: #F6F6F6;
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+}
+
+.six_box > p {
+    margin-top: 70px !important;
+    font: 44px "Fira Sans", sans-serif;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+
+.six_box > h1 {
+    font: 25px "Fira Sans", sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.six_box > img {
+    margin-bottom: 95px;
+}
+
+.partners{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.rare hr{
+    height:2px;
+    border-width:0;
+    color:#D4D4D4;
+    background-color:#D4D4D4;
+    width:70%;
+}
+
+.common hr{
+    height:2px;
+    border-width:0;
+    color:#D4D4D4;
+    background-color:#D4D4D4;
+    width:70%;
+}
+
+.legendary hr{
+    height:2px;
+    border-width:0;
+    color:#D4D4D4;
+    background-color:#D4D4D4;
+    width:70%;
+}
+
+.ffp{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+  .partners:last-child{
+    margin-bottom: 30px;
+}
+
+
+  .items__item {
+	display: flex;
+	align-items: center;
+	margin: 0px 0px 0px 0px;
+}
+/* Контейнер картинки */
+.items__image {
+	flex: 0 0 33.333%;
+	position: relative;
+	min-height: 800px;
+    margin-right: 190px;
+}
+.items__image_1 {
+	flex: 0 0 33.333%;
+	position: relative;
+	min-height: 800px;
+    margin-left: 190px;
+}
+.items__image_1 img{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+/* Картинка */
+.items__image img{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.items__body {
+	flex: 1 1 auto;
+	margin-left: 190px;
+    margin-right: 50px;
+}
+
+
+.items__body_1 > a {
+    margin-top: 30px;
+}
+
+.items__label {
+	font: 48px "Fira Sans", sans-serif !important;
+	display: inline-block;
+	margin: 0px 0px 20px 0px;
+}
+.items__text {
+	font: 25px "Fira Sans", sans-serif;
+	font-weight: normal !important;
+    margin-bottom: 30px;
+}
+.bottom_spacer{
+    margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 1400px) {
+    .ffp{
+        width: 100%;
+    }
+    .rare{
+        margin-top: 80px;
+    }
+    .legendary{
+        margin-top: 80px;
+    }
+    .common{
+        margin-top: 80px;
+    }
+    .six_box > p {
+        margin-bottom: 20px !important;
+    }
+    .partner_name{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .partner_name > img {
+        width: 30%;
+    }
+  }
+  
+@media only screen and (max-width: 1100px) {
+	.items__label {
+		font: 44px "Fira Sans", sans-serif !important;
+	}
+	.items__text {
+		font: 34px "Fira Sans", sans-serif;
+	}
+  }
+
+  @media only screen and (max-width: 850px) {
+    .items__body{
+        margin-right: 40px;
+    }
+      
+    .second_box{
+        padding: 0 20px;
+    }
+    video{
+        border-radius: 14px;
+    }
+    .second_box > p {
+        margin-top: 50px;
+        margin-bottom: 0px !important;
+        font: 34px "Fira Sans", sans-serif !important;
+    }
+	.items__label {
+		font: 34px "Fira Sans", sans-serif !important;
+	}
+	.items__text {
+		font: 24px "Fira Sans", sans-serif;
+	}
+  }
+  @media only screen and (max-width: 600px) {
+      video{
+          margin-bottom: 50px;
+      }
+    .second_box > p {
+        font: 24px "Fira Sans", sans-serif !important;
+        margin-bottom: 30px;
+    }
+    .second_box > h1 {
+        font: 14px "Fira Sans", sans-serif !important;
+        margin-bottom: 30px;
+    }
+	.items__label {
+		font: 24px "Fira Sans", sans-serif !important;
+        margin-bottom: 10px;
+	}
+	.items__text {
+		font: 14px "Fira Sans", sans-serif;
+	}
+    .items__body{
+        margin-left: 20px;
+    }
+    .items__image{
+        margin-right: 20px;
+        min-height: 400px;
+    }
+    .items__image_1{
+        margin-left: 10px;
+        min-height: 400px;
+    }
+    .common{
+        width: 80%;
+    }
+    .rare{
+        width: 80%;
+    }
+    .legendary{
+        width: 80%;
+    }
+    .variants > img{
+        margin-left: 15px;
+    }
+    .variants_black > img{
+        margin-left: 15px;
+    }
+    .variants > p {
+        width: 250px;
+    }
+    .variants_black > p {
+        width: 250px;
+    }
+    .partner_name > img {
+        width: 70%;
+    }
+    .head_style{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .logo{
+        width: 80%;
+    }
+    .menu_btn{
+        width: 70%;
+    }
+    .bottom_spacer{
+        margin-bottom: 30px;
+    }
+    .title > p {
+        font: 24px "Fira Sans", sans-serif;
+    }
+    .title > h1 {
+        font: 14px "Fira Sans", sans-serif;
+    }
+    .six_box > p {
+        font: 24px "Fira Sans", sans-serif;
+    }
+    .six_box > h1 {
+        font: 14px "Fira Sans", sans-serif;
+    }
+  }
+
